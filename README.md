@@ -1,10 +1,17 @@
-# Audio-visual-comparison
+# Audio visual comparison 
 Innovation project for College Students
 
-大学生创新项目
 
+# 可视化音频对比
+大学生创新项目：KTV打分算法
 整合了librosa库的部分功能来提取音频特征进行音频可视化对比操作
 
+--------------------
+- import librosa
+- import matplotlib.pyplot as plt
+- import librosa.display
+- import numpy as np
+- import scipy.stats
 
 ## class(类)  ##
 ### librosa_play.wave_compare_show(filename_record,filename_music) ###
