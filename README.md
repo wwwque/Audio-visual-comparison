@@ -22,7 +22,7 @@ Innovation project for College Students
 --------------------
 
 #### OffSet(offset\_range=100): 音频同步
-return 偏移量(int)（单位：秒数）
+return 偏移量(int)（单位：秒数*采样率）
 
 - 说明：以音高为基准对两个音频进行同步操作，
 - offset_range：偏移的范围
