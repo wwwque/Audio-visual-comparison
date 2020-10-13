@@ -34,7 +34,7 @@ return 相似度(double)
 - 说明：展示两个音频的最明显的音高的特征，返回大致相似度
 - show：显示图，设置成False则不显示
 
-#### DB\_Power_Show(show=True): 分贝对比
+#### DB\_Power_Show(show=True): 分贝对比（效果不好）
 return 相似度(double)
 
 - 说明：展示两个音频的分贝特征，返回大致相似度
