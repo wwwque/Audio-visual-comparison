@@ -19,6 +19,7 @@ Innovation project for College Students
 只需简单输入两个音频路径实例化即可（测试用例均采用采样率44100的音频，其它采样率未测试）
 
 ### wave\_compare_show的核心函数（需先实例化）### 
+---
 
 #### OffSet(offset\_range=100): 音频同步####
 return 偏移量(int)（单位：秒数）
