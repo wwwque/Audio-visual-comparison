@@ -14,12 +14,11 @@ Innovation project for College Students
 - import numpy as np
 - import scipy.stats
 
-## class(类)  ##
+## class类  ##
 ### librosa_play.wave_compare_show(filename_record,filename_music) ###
 只需简单输入两个音频路径实例化即可（测试用例均采用采样率44100的音频，其它采样率未测试）
 
-wave\_compare_show的核心函数（需先实例化）
--------------
+### wave\_compare_show的核心函数（需先实例化）### 
 
 #### OffSet(offset\_range=100): 音频同步####
 return 偏移量(int)（单位：秒数）
@@ -49,6 +48,6 @@ return tempo_music(double),tempo_record(double)
 其它函数可不用理会
 
 
-## class(类)  ##
+## class类  ##
 ### wave\_show(filename) ###
 对单个音频进行特征图展示，暂不说明(
